@@ -8,7 +8,7 @@ body {
 
 body::after {
 	content: "";
-	background-image: url("bot.png");
+	background-image: url("robot.png");
 	background-repeat: repeat-y; 
 	opacity: 0.5;
 	top: 0;

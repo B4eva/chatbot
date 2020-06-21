@@ -138,9 +138,9 @@ function addChat(input, product) {
 }
 
 const synth = window.speechSynthesis;
-let voices = synth.getVoices();
+let voices = synth.getVoices(); 
 
-function speak(string) {
+ function speak(string) {
   let u = new SpeechSynthesisUtterance(string);
   u.text = string;
   u.lang = "en-US";
@@ -149,4 +149,4 @@ function speak(string) {
   u.pitch = 1; //0-2 interval
   synth.speak(u);
   debugger
-}
+} 
